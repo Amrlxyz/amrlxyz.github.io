@@ -1,15 +1,16 @@
 ---
-title: First Post
-date: 2024-05-22 02:02:05 +0100
+title: Second Post Test
+date: 2024-05-22 12:52:07 +0100
 categories: [Projects]
 tags: [C/C++, Python]     # TAG names should always be lowercase
-description: Short summary of this post
 ---
 
+# Welcome to the second post
 
-# Welcome
+This 
 
-I am not a web dev so plz be nice
+
+
 
 
 ## Title2
@@ -23,3 +24,6 @@ whasdjfsadf
 #### Title4
 
 Whatisthis
+
+
+
