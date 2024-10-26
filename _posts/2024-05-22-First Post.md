@@ -1,24 +1,38 @@
 ---
-title: First Post
+title: My First Website
 date: 2024-05-22 02:02:05 +0100
 categories: [Projects]
 tags: [C/C++, Python]     # TAG names should always be lowercase
-description: Short summary of this post
+description: The journey of creating my personal website for my projects
+pin: true
 ---
 
+## Welcome
 
-# Welcome
+Hello everyone, welcome to my website!
 
-I am not a web dev so plz be nice
+In this post I will be sharing my journey and thought process in making this website. 
+
+My main motivation in making this 
 
 
-## Title2
 
-lmagaiasdf
 
-### Title3
+
+## Motivation
+
+
+
+## First attempt
+
+I had some knowledge on web development that i learned from 
+
+
+## Second Attempt
 
 whasdjfsadf
+
+
 
 #### Title4
 

@@ -16,7 +16,7 @@ timezone: Europe/London
 
 title: Mohamad Amierul Hakeem # the main title
 
-tagline: MEng Mechatronics Engineer | University of Manchester # it will display as the sub-title
+tagline: MEng Mechatronics Engineering | University of Manchester # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Personal blog for technical writing.
@@ -39,10 +39,10 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
+    - https://www.linkedin.com/in/amierulhakeem/
     - https://github.com/Amrlxyz # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/amierulhakeem/
 
 # Site Verification Settings
 webmaster_verifications:
@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/Untitled.png
+avatar: assets/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

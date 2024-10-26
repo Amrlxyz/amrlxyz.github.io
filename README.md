@@ -4,7 +4,7 @@ Link: [https://amrlxyz.github.io/](https://amrlxyz.github.io/)
 
 My personal website 
 
-To host my website I opted for GitHub pages since it is free and I only need a static website for simple website.
+To host my website, I opted for GitHub pages since it is free and I only need a static website for simple website.
 
 Hosting my website on my own is one
 
@@ -18,6 +18,12 @@ The template make setting up the github pages much easier and definitely recomme
 
 
 ## Usage
+
+run locally:
+
+bundle
+
+bundle exec jekyll s
 
 
 
