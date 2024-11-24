@@ -25,6 +25,8 @@ bundle
 
 bundle exec jekyll s
 
+RUBYOPT=-W0 bundle exec jekyll s // To suppress deprecation warnings
+
 
 
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
