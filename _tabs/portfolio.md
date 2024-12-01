@@ -121,7 +121,7 @@ Used SOLIDWORKS to design the car and run FEA and CFD simulations to optimise it
 
 __Theodor Heath__ (3rd Year Project Supervisor) - [theodor.heath@manchester.ac.uk](mailto:theodor.heath@manchester.ac.uk) 
 
-__Wuliang Yin__ (2nd Year Project Supervisor) - [wuliang.yin@manchester.ac.uk](mailto:wuliang.yin@manchester.ac.uk)  [[_Recommendation Letter_]](/assets/reference-letter.pdf)
+__Wuliang Yin__ (2nd Year Project Supervisor) - [wuliang.yin@manchester.ac.uk](mailto:wuliang.yin@manchester.ac.uk)  [[_Reference Letter_]](/assets/reference-letter.pdf)
 
 
 
