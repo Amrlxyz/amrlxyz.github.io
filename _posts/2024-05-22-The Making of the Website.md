@@ -3,118 +3,110 @@ title: The Making of the Website
 date: 2024-05-22 12:52:07 +0100
 categories: [Projects]
 tags: [Website, Networking]     # TAG names should always be lowercase
-description: The story behind the website and the technical decisions involved in its creation
+description: The story behind the website and the technical decisions involved in its creation.
 ---
 
 # Introduction
 
-In this post I will be sharing my journey and thought process in making this website.
+In this post, I will share my journey and thought process in making this website.
 
-previosuly i dont have a good place to share all of these. I tried with linked in with this post (link) but present with two major problems. Limited customisability of each and not suitable to display code and the second is that the throught my writing, i always have a conflict of how detailed and the audience of my article. I could make it simple and easy to understand but that would mean. So with this website, i am aiming for a more deatiled posts and with a more technical audience. 
+Previously, I didn’t have a good place to share all of these. I tried LinkedIn with this post[^linkedin-original-post] but faced two big problems. 
 
-moving forward this will be the place that i will yap about my projects and discoveries
+The first was the limited customizability and not being suitable to display code.
 
+The second was that throughout my writing, I always had a conflict about how detailed to make it and who the audience is. I could make it simple and easy to understand, but that would mean losing some details.  
 
-# Motivation:
+With this website, I aim for more detailed posts for a more technical audience. Moving forward, this will be the place where I will yap about my projects and discoveries.
 
-My main motivation in making this is the fact that a lot of my projects are left and forgotten. Things that i thought i will remember for a long time i will literally forgot
+# Motivation
 
-I dont give enough credit cause sometimes when i look back i dont remember much on what i did especially for small one off weekend project. For
+My main motivation in making this is the fact that a lot of my projects are left and forgotten. Things that I thought I would remember for a long time, I literally forgot.  
 
-I learnt a lot but i dont document them so sometimes i just forget 
+I don’t give enough credit to my work because when I look back, I don’t remember much of what I did, especially for small one-off weekend projects.  
 
-Not only that, even for long term projects i tend to forget the struggle and the effort i put into it
+I learned a lot but didn’t document them, so sometimes I just forget. Even for long-term projects, I tend to forget the struggles and effort I put into them.  
 
-for example, the embedded systems project, i remembered there were so much interesting stuff that i thought i wouldnt forget but now few months passed and i already forgot a lot of the details. Sure I
+For example, the embedded systems project. I remember there was so much interesting stuff that I thought I wouldn’t forget, but now a few months have passed, and I already forgot a lot of the details.  
 
-I believe this is an important part of engineering
+Sometimes I revisit a project and end up Googling the same things again, seeing a bunch of purple links (which means I’ve Googled them before). I still need to redo things I already discovered.  
 
-sometimes i revisit a project and end up looking at google with a bunch of purple links (which means i have googled them before) but i ended up needing to re-do the things i shouldve discovered
+Things like design justification, why I chose a specific approach, and other details are the ones I most often forget.  
 
-things like design justification, why i choose this specific approach and things like that are the kinds of i most often forget about
+I believe this is an important part of engineering.  
 
-not only that, i believe that techincla communication is important for engineers as i belive that your idea is only good only if you can explain them especially when working with other engineers so with this i
-will try my best to improve my technical explanation skill. I appreciate and love a good well written explanation of something complex, so i would like to have such writing skills
+Not only that, but I believe technical communication is important for engineers. Your idea is only good if you can explain it, especially when working with other engineers. So with this, I will try my best to improve my technical explanation skills.  
 
+I love and appreciate a well-written explanation of something complex, and I would like to have that kind of skill.
 
 # Requirements
 
-Before starting, i have to set some some requirements for my website because it is very easy to try to achieve too much and not even complete which i have learnt my lesson many times but still keep repeating.
+Before starting, I had to set some requirements for my website. It is very easy to try to achieve too much and not even finish, which I have learned many times but still keep repeating.  
 
 1. **Just Works (Reliable)**  
-I want something that just works. Although i have learned a bit about web development in the past, using a web framework and designing my own website would just take too much time and takes
-
-4. **Easy to post**  
-In addition to just works, I want to use it long term, so it has to be easy to create post and customise. writing custom html file for each post is really not practical. I dont mind not having full customisability as long as the options that i have is enough - somehing like a markdown file for each post but with some extra options will be perfect
+   I want something that just works. Even though I learned some web development in the past, using a web framework and designing my own website would take too much time and effort.  
 
 2. **Free**  
-Why not? With the idea of creating and hosting your own website, there are a lot of free and open source options, or make it from scratch where there are a lot of tutorials online. I think the payoff of using a paid website creator such as Wix is just not worth it for a personal blog website.
+   Why not? There are a lot of free and open-source options, or you can make it from scratch with tutorials online. I think paid website creators like Wix are not worth it for a personal blog.  
 
-4. **Good Readability and UI**
-Designing my own ui and graphic design might seem tempting due to its flexibility on customisability but as I have discovered early i am not talented for graphic design and ui design would not be the same and it will take a lot of time to make it what i consider as acceptable. So, a website template seem good
+3. **Easy to Post**  
+   I want to use it long-term, so it has to be easy to create posts and customize. Writing a custom HTML file for each post is not practical. Something like markdown files with extra options is perfect.  
 
-
-
+4. **Good Readability and UI**  
+   Designing my own UI and graphics is tempting because of the flexibility, but I’m not good at graphic design. It would take too much time to make something acceptable. Using a website template seems like a better option.  
 
 # Implementation
 
 ## Initial Considerations
 
-My experience in web development are quite limited so some of these might be wrong
+My experience in web development is quite limited, so some of this might be wrong.  
 
-Although having some experience creating a bare bones website in my previous cs50x course i took last year, the knowledge is pretty limited and pretty limited on the design and UI elements of the website. Making the website look pretty and readable will take a lot of effort and time.
+Although I made a simple website during my CS50x course last year, my knowledge of design and UI is pretty limited. Making the website look good and readable would take a lot of effort and time.  
 
-Using a well known web framework to build the website seems the most middle solution balance of flexibitly and time but there are too much options for this and im not planning to go down the rabbit hole of web dev but still you would still likely need to desing the front end which i am not keen to do atleast for now
+Using a well-known web framework seemed like the best balance between flexibility and time, but there are too many options, and I didn’t want to go down the web dev rabbit hole. Also, most frameworks still need some front-end design, which I didn’t want to do right now.  
 
+## GitHub Pages
 
-## Github Pages
+After looking online, I found GitHub Pages as an option to host my website. Surprisingly, there are many free templates to use.  
 
-After looking for options online there is an option of using github pages to host my website and suprisingly there are a lot of templates that are free to use.
+GitHub allows users to host websites on their repos for free. It turns out it’s a common way for web developers to have a repo for their website, build and run it locally, and push it online when ready.  
 
-Github allows users to host their own websites on your repos for free. It turns out it is actually a common way for web developers to have thier website as a repo, build and run locally and when its ready, it will be pushed to the online repo and automatically built and launched.
+With other services like Netlify and Cloudflare Pages, you can just link your repo, set up build commands, and it will automatically host the website.  
 
-Even with other services such as netlify and cloudflare pages, you can just link your repo and have set how the commands to build the website, and bam it will automically host the website. 
-
-Github does specify a 1gb max file size and 100gb bandwith limit [source](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits). I am pretty sure i will not reach that limit but it will be interesting to see the traffic of the website perhaps it would probably a topic for another project.
-
+GitHub Pages has a 1GB max file size and 100GB bandwidth limit[^github-pages-limits]. I’m pretty sure I won’t hit that limit, but it will be interesting to see the website traffic. Maybe that could be another project.  
 
 ## Jekyll and Ruby
 
-There are a lot of templates to choose from, but since i am planning to just make a static web page and not a web app, the templates i want to use is Jekyll which is written in Ruby.
+There are many templates to choose from, but since I just want a static page and not a web app, I chose Jekyll, which is written in Ruby.  
 
-Jekyll is a static site generator which uses a markdown file to generate each page which is perfect for my purposes. Markdown format is easy to write and customise. The tradeoff between customisability and ease fo use is justified for markdown in my opinion
-
+Jekyll is a static site generator that uses markdown files to make pages, which is perfect for my purpose. Markdown is easy to write and customize, and I think it’s a good balance between customizability and ease of use.  
 
 ## Chirpy Template
 
-There are a lot of templates on Jekyll templates on [Github](https://github.com/topics/jekyll-theme) to choose from. But i have chosen chirpy template which has a starter template that you can easily directly use and sets up everything for you with minimal configurations.
+There are many Jekyll templates on GitHub[^jekyll-themes], but I chose the Chirpy template. It has a starter template that sets up everything with minimal configuration.  
 
-By using the starter template, customising few variables in the `_config.yml`, and enabling github pages deployment, the webstie is ready to be access across the world. The guide for this is shown here [guide](https://chirpy.cotes.page/posts/getting-started/)
+By using the starter template, customizing some variables in `_config.yml`, and enabling GitHub Pages deployment, the website was ready to go live.  
 
-I was suprised how easy it is to host this beautiful website and let me remind you that it is FREE!
+The Chirpy template allows some customization but not for the general theme. That’s fine for now, but some might find it limiting since many people use this theme.  
 
-A lot of customisation can be made except for the general theme which is fine as is but can be seen as limiting especially since a lot of people are using this theme.
+I also enabled a comment section for each post using Giscus, which Chirpy supports.  
 
-I even enabled comment section for each post using giscus which is supported by Chirpy
-
-Honestly i wonder how the internet would be without the open source and i am forever grateful to all the contributors to open source projects and one day I wish I can. Obviously in this case all credit to the creator of this template.
-
+Honestly, I’m amazed by open-source projects. I am forever grateful to all contributors, and one day I hope I can give back too.  
 
 ## Custom Domain
 
-To implement a custom domain for my website, there are a lot of outdated guides online and 
-
-
+To add a custom domain, I found a lot of outdated guides online. I might document this process separately.  
 
 ## Future Improvements
 
-As said the theme allows for customisation for some elemets of but it lacks customisability on but it is uderstandable as it is a tradeoff for ease of use. Things like fonts, text formatting are pretty limited so in the future I might migrate to another theme minimal mistakes as it allows for more custmoisabiility but requires more configuration. So i am not going to migrate to that but maybe in the future
+As mentioned, the theme allows customization of some elements but lacks flexibility in things like fonts and text formatting. In the future, I might switch to a more customizable theme like Minimal Mistakes, but it requires more configuration.  
 
+# Credits and Footnotes
 
+- [Chirpy GitHub Pages Template][chirpy-github-repo]  
+- [Website Favicon Created By Good Ware][circuit-favicon]  
 
-# Credits and reverse footnotes
-
-[Chirpy github pages template](https://github.com/cotes2020/jekyll-theme-chirpy)
-
-[Website Favicon Created By Good Ware](https://www.flaticon.com/free-icons/circuit)
-
+[^linkedin-original-post]: LinkedIn - [Original Post Example](https://www.linkedin.com)  
+[^github-pages-limits]: GitHub Pages Usage Limits - [Source](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits)  
+[^jekyll-themes]: Jekyll Themes on GitHub - [Explore Here](https://github.com/topics/jekyll-theme)  
+[^chirpy-github-repo]: Chirpy GitHub Repository - [View Repository](https://github.com/cotes2020/jekyll-theme-chirpy)  
+[^circuit-favicon]: Circuit Favicon by Good Ware - [View Icon](https://www.flaticon.com/free-icons/circuit)  
